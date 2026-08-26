@@ -6,7 +6,7 @@
 
 **成品 `Beat Cop.exe` 在 [Releases](https://github.com/bbear8297-creator/Beat_Cop/releases) 页面下载**（单文件，DLL 已内嵌），下载后直接可用：
 
-- 只需要 **Windows 10**，不需要安装任何东西（不需要 MSYS2、不需要 .NET、不需要额外 DLL）
+- 只需要 **Windows 10及以上**，不需要安装任何东西（不需要 MSYS2、不需要 .NET、不需要额外 DLL）
 - 使用方法：
   1. 启动游戏（Beat Cop）
   2. 右键 `Beat Cop.exe` → **以管理员身份运行**
