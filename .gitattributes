@@ -1,0 +1,3 @@
+# .bat 必须保持 CRLF 行尾（cmd 解析 LF-only 批处理会出错），
+# 无论使用者本地的 core.autocrlf 设置如何，检出一律 CRLF。
+*.bat text eol=crlf
