@@ -1,0 +1,7 @@
+// ============================================================
+//  Beat Cop 资源脚本：把注入 DLL 以 RCDATA 资源形式内嵌进 exe
+// ============================================================
+//  ★ 必须与 launcher.cpp 里的 IDR_BEATCOP_DLL 保持一致（101），
+//    否则运行时 FindResourceW 找不到资源，会报"解压 DLL 失败"。
+#define IDR_BEATCOP_DLL 101
+IDR_BEATCOP_DLL RCDATA "beatcop/beatcop.dll"
