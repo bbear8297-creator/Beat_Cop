@@ -4,7 +4,7 @@
 
 ## 直接使用（推荐，无需任何环境）
 
-**仓库里已附构建好的成品 `Beat Cop.exe`**（单文件，DLL 已内嵌），下载后直接可用：
+**成品 `Beat Cop.exe` 在 [Releases](https://github.com/bbear8297-creator/Beat_Cop/releases) 页面下载**（单文件，DLL 已内嵌），下载后直接可用：
 
 - 只需要 **Windows 10**，不需要安装任何东西（不需要 MSYS2、不需要 .NET、不需要额外 DLL）
 - 使用方法：
@@ -46,7 +46,6 @@
 
 ```
 Beat Cop/
-├── Beat Cop.exe          ★ 已构建好的成品（可直接下载使用）
 ├── launcher.cpp          单文件注入器源码（主程序，GUI）
 ├── injector.cpp          命令行注入器源码（备用工具）
 ├── resource.rc           资源脚本：把 DLL 以 RCDATA 资源嵌入 exe
@@ -62,14 +61,14 @@ Beat Cop/
     └── imgui/            ImGui 开源库（v1.90.9，构建依赖）
 ```
 
-> 除 `Beat Cop.exe`（成品，入库）外，`*.dll` / `*.o` 等构建产物均被 `.gitignore` 排除，由脚本自动生成。
+> 构建产物（`*.dll` / `*.o` 等）均被 `.gitignore` 排除，由脚本自动生成；成品 exe 发布在 Releases，不入库。
 
 ## 使用说明（面板）
 
 ```
 ┌──────────────────────────────┐
 │ Beat Cop 金币修改器      [×] │
-│ 当前金币: 10000151            │
+│ 当前金币: 12345               │
 │ [新金币: 输入数字      ]      │
 │ [修 改]  [重置为当前值]        │
 │                              │
